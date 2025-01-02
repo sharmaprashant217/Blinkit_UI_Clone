@@ -10,7 +10,7 @@ A Flutter application that replicates the user interface of the Blikit app. This
 - **State Management**: Simple and effective state management using `setState` and/or a state management library.
 
 ## App UI Video
-
+https://github.com/user-attachments/assets/8a6841b2-b567-4ac3-8093-b12550553083
 
 ## Installation
 
