@@ -9,20 +9,15 @@ A Flutter application that replicates the user interface of the Blikit app. This
 - **Navigation**: Smooth navigation between screens using Flutter's navigation system.
 - **State Management**: Simple and effective state management using `setState` and/or a state management library.
 
-## Screenshots
+## App UI Video
 
-### Home Screen
-![Home Screen](assets/screenshots/home_screen.png)
-
-### Details Screen
-![Details Screen](assets/screenshots/details_screen.png)
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/blikit-ui-clone.git
-   cd blikit-ui-clone
+   git clone https://github.com/sharmaprashant217/Blinkit_UI_Clone.git
+   cd Blinkit_UI_Clone
    ```
 
 2. Install dependencies:
@@ -37,20 +32,19 @@ A Flutter application that replicates the user interface of the Blikit app. This
 
 ## Dependencies
 
-- `flutter`: ^3.x.x
-- Additional dependencies like `provider`, `http`, or others as needed.
+- `flutter`: ^3.27.1
 
 ## Folder Structure
 
 ```
-blikit-ui-clone/
+Blinkit-Ui-Clone/
 ├── lib/
 │   ├── main.dart          # Entry point of the app
-│   ├── screens/           # All screen files
-│   ├── widgets/           # Reusable widgets
-│   ├── models/            # Data models
-│   ├── utils/             # Utility functions
-│   └── services/          # API and backend service files
+│   ├── repository/
+               ├──constants/ # All constants files
+│   ├── repository/
+               ├──screens/ # All screen files
+               ├──widgets/ # All widgets files
 ├── assets/
 │   ├── images/            # All image assets
 │   └── fonts/             # Custom fonts
